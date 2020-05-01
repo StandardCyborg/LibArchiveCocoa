@@ -2,6 +2,9 @@
 
 [![License](http://img.shields.io/:license-apache-orange.svg)](http://www.apache.org/licenses/LICENSE-2.0) 
 
+!NOTE!
+For public release, change podspec file `git@github.com:` to use HTTPS.
+
 ## Quickstart
 
 demo
@@ -29,4 +32,27 @@ to get the resulting `config.h` to build for the iOS simulator & device.
 
 Note that the license used in this repo is independent of that used in `LibArchive`;
 `LibArchive` currently has a [BSD-like license](https://github.com/libarchive/libarchive/blob/master/COPYING)
+
+
+## Development
+
+### Tags
+We keep tags in this repo in sync with [LibArchive releases](https://github.com/libarchive/libarchive/releases).
+
+To create a new release:
+ * Clone this repo including submodules (`git clone --recursive`)
+ * `cd libarchive` and `git checkout` the release of `LibArchive` that
+      you want.
+ * Edit the podspec in this repo to match the version tag you checked out.
+ * Create a PR and merge your changes to this repo.
+ * Push a tag on *this repo* with a name that matches the version name
+      used in your updated podspec (which should also match a `LibArchive`
+	  tag).
+
+### Pushing the Podspec
+
+When pushing the podspec, use `--allow-warnings` so we can ignore some irrelevant warnings:
+```
+$ pod repo push MyRepo LibArchiveCocoa.podspec.json --allow-warnings --use-libraries
+```
 
