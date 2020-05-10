@@ -7,7 +7,10 @@ For public release, change podspec file `git@github.com:` to use HTTPS.
 
 ## Quickstart
 
-demo
+Simply include this pod in your `Podfile`:
+```
+pod 'LibArchiveCocoa', '~> 3.4.2'
+```
 
 ## Summary
 
