@@ -29,7 +29,7 @@ the exception that the user must provide a `config.h` platform header to
 enable/disable certain features.  *This project provides that header,
 as well as a `Podspec` for easy inclusion of `LibArchive` in your App.*
 To reproduce the included `config.h`, start by cloning `LibArchive` locally 
-and [build using `cmake -G Xcode .`](https://github.com/libarchive/libarchive/wiki/BuildInstructions#MacOSXcode)
+and [build using `cmake -G Xcode -DENABLE_ICONV=OFF .`](https://github.com/libarchive/libarchive/wiki/BuildInstructions#MacOSXcode)
 as documented on the `LibArchive` wiki.  You may need to make a few tweaks
 to get the resulting `config.h` to build for the iOS simulator & device.
 
