@@ -315,13 +315,13 @@ typedef uint64_t uintmax_t;
 /* #undef ARCHIVE_XATTR_LINUX */
 
 /* Version number of bsdcpio */
-#define BSDCPIO_VERSION_STRING "3.4.3dev"
+#define BSDCPIO_VERSION_STRING "3.4.2"
 
 /* Version number of bsdtar */
-#define BSDTAR_VERSION_STRING "3.4.3dev"
+#define BSDTAR_VERSION_STRING "3.4.2"
 
 /* Version number of bsdcat */
-#define BSDCAT_VERSION_STRING "3.4.3dev"
+#define BSDCAT_VERSION_STRING "3.4.2"
 
 /* Define to 1 if you have the `acl_create_entry' function. */
 #define HAVE_ACL_CREATE_ENTRY 1
@@ -639,10 +639,10 @@ typedef uint64_t uintmax_t;
 #define HAVE_GRP_H 1
 
 /* Define to 1 if you have the `iconv' function. */
-#define HAVE_ICONV 1
+/* #undef HAVE_ICONV */
 
 /* Define to 1 if you have the <iconv.h> header file. */
-#define HAVE_ICONV_H 1
+/* #undef HAVE_ICONV_H */
 
 /* Define to 1 if you have the <inttypes.h> header file. */
 #define HAVE_INTTYPES_H 1
@@ -1223,10 +1223,10 @@ typedef uint64_t uintmax_t;
 #define ICONV_CONST 
 
 /* Version number of libarchive as a single integer */
-#define LIBARCHIVE_VERSION_NUMBER "3004003"
+#define LIBARCHIVE_VERSION_NUMBER "3004002"
 
 /* Version number of libarchive */
-#define LIBARCHIVE_VERSION_STRING "3.4.3dev"
+#define LIBARCHIVE_VERSION_STRING "3.4.2"
 
 /* Define to 1 if `lstat' dereferences a symlink specified with a trailing
    slash. */
@@ -1280,7 +1280,7 @@ typedef uint64_t uintmax_t;
 #endif /* SAFE_TO_DEFINE_EXTENSIONS */
 
 /* Version number of package */
-#define VERSION "3.4.3dev"
+#define VERSION "3.4.2"
 
 /* Number of bits in a file offset, on hosts where this is settable. */
 /* #undef _FILE_OFFSET_BITS */
