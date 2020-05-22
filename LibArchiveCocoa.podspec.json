@@ -15,11 +15,11 @@
     "submodules": true
   },
   "public_header_files": [
-    "config.h",
+    "config/mac/config.h",
     "libarchive/libarchive/*.h"
   ],
   "source_files": [
-    "config.h",
+    "config/mac/config.h",
     "libarchive/libarchive/*.{h,c}"
   ],
   "exclude_files": [
