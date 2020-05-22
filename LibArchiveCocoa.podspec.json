@@ -33,5 +33,8 @@
   "compiler_flags": [
     "-DHAVE_CONFIG_H=1"
   ],
-  "libraries": ["z", "bz2"]
+  "libraries": ["z", "bz2"],
+  "xcconfig": {
+    "HEADER_SEARCH_PATHS": "$(inherited) \"$(PODS_ROOT)/LibArchiveCocoa/config/mac\""
+  }
 }
