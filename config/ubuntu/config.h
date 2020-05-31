@@ -210,7 +210,7 @@ typedef uint64_t uintmax_t;
 /* #undef ARCHIVE_CRYPTO_MD5_NETTLE */
 
 /* MD5 via ARCHIVE_CRYPTO_MD5_OPENSSL supported. */
-#define ARCHIVE_CRYPTO_MD5_OPENSSL 1
+//#define ARCHIVE_CRYPTO_MD5_OPENSSL 1
 
 /* MD5 via ARCHIVE_CRYPTO_MD5_WIN supported. */
 /* #undef ARCHIVE_CRYPTO_MD5_WIN */
@@ -222,7 +222,7 @@ typedef uint64_t uintmax_t;
 /* #undef ARCHIVE_CRYPTO_RMD160_NETTLE */
 
 /* RMD160 via ARCHIVE_CRYPTO_RMD160_OPENSSL supported. */
-#define ARCHIVE_CRYPTO_RMD160_OPENSSL 1
+//#define ARCHIVE_CRYPTO_RMD160_OPENSSL 1
 
 /* SHA1 via ARCHIVE_CRYPTO_SHA1_LIBC supported. */
 /* #undef ARCHIVE_CRYPTO_SHA1_LIBC */
@@ -234,7 +234,7 @@ typedef uint64_t uintmax_t;
 /* #undef ARCHIVE_CRYPTO_SHA1_NETTLE */
 
 /* SHA1 via ARCHIVE_CRYPTO_SHA1_OPENSSL supported. */
-#define ARCHIVE_CRYPTO_SHA1_OPENSSL 1
+//#define ARCHIVE_CRYPTO_SHA1_OPENSSL 1
 
 /* SHA1 via ARCHIVE_CRYPTO_SHA1_WIN supported. */
 /* #undef ARCHIVE_CRYPTO_SHA1_WIN */
@@ -255,7 +255,7 @@ typedef uint64_t uintmax_t;
 /* #undef ARCHIVE_CRYPTO_SHA256_NETTLE */
 
 /* SHA256 via ARCHIVE_CRYPTO_SHA256_OPENSSL supported. */
-#define ARCHIVE_CRYPTO_SHA256_OPENSSL 1
+//#define ARCHIVE_CRYPTO_SHA256_OPENSSL 1
 
 /* SHA256 via ARCHIVE_CRYPTO_SHA256_WIN supported. */
 /* #undef ARCHIVE_CRYPTO_SHA256_WIN */
@@ -276,7 +276,7 @@ typedef uint64_t uintmax_t;
 /* #undef ARCHIVE_CRYPTO_SHA384_NETTLE */
 
 /* SHA384 via ARCHIVE_CRYPTO_SHA384_OPENSSL supported. */
-#define ARCHIVE_CRYPTO_SHA384_OPENSSL 1
+//#define ARCHIVE_CRYPTO_SHA384_OPENSSL 1
 
 /* SHA384 via ARCHIVE_CRYPTO_SHA384_WIN supported. */
 /* #undef ARCHIVE_CRYPTO_SHA384_WIN */
@@ -297,7 +297,7 @@ typedef uint64_t uintmax_t;
 /* #undef ARCHIVE_CRYPTO_SHA512_NETTLE */
 
 /* SHA512 via ARCHIVE_CRYPTO_SHA512_OPENSSL supported. */
-#define ARCHIVE_CRYPTO_SHA512_OPENSSL 1
+//#define ARCHIVE_CRYPTO_SHA512_OPENSSL 1
 
 /* SHA512 via ARCHIVE_CRYPTO_SHA512_WIN supported. */
 /* #undef ARCHIVE_CRYPTO_SHA512_WIN */
@@ -690,7 +690,7 @@ typedef uint64_t uintmax_t;
 /* #undef HAVE_LIBCHARSET */
 
 /* Define to 1 if you have the `crypto' library (-lcrypto). */
-#define HAVE_LIBCRYPTO 1
+//#define HAVE_LIBCRYPTO 1
 
 /* Define to 1 if you have the `expat' library (-lexpat). */
 /* #undef HAVE_LIBEXPAT */
